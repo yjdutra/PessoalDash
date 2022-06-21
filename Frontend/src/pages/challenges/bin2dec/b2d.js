@@ -1,7 +1,6 @@
 import styles from "./layout.module.css";
 import { useState } from "react";
 
-import { Whats, Telegram, GitHub } from "../../../public/socialIcons";
 
 //👨‍💻 http://localhost:3000/challenges/bin2dec/b2d?
 
@@ -82,18 +81,6 @@ export default function Bin2Dec() {
         </div>
       </div>
 
-      <footer className={styles.footer}>
-        <p>Yuri Jorge D. Araujo</p>
-        <a href={"http://localhost:3000/challenges/bin2dec/b2d?"}>
-          <Whats />
-        </a>
-        <a href={"https://github.com/yjdutra/challenges"}>
-          <GitHub />
-        </a>
-        <a href={"http://localhost:3000/challenges/bin2dec/b2d?"}>
-          <Telegram />
-        </a>
-      </footer>
     </>
   );
 }
