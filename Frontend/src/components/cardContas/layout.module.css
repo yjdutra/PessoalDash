@@ -1,58 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 
-.container {
-  display: flexbox;
-
-  width: 200px;
+.card {
+  padding: 20px;
+  width: 300px;
   height: 100px;
+  display: grid;
+  grid-template-rows: 0px 30px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  background: radial-gradient(rgba(251, 193, 204, 0.6), rgba(250, 153, 178, 0.9));
 
-  padding: 10px;
-  border-radius: 5px;
-
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.8)
-  );
-
-  
+  font-family: "Poiret One", cursive;
+  font-size: large;
 }
 
-.contant {
-  display: flex;
-  justify-content: space-between;
-
-  align-items: center;
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
 }
 
-.footer {
-  width: 200px;
-  height: 20px;
-  padding: 10px;
+.card__title {
+  margin-top: 2%;
 
-  background-image: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgba(113, 248, 222, 0.5)
-  );
+  grid-row: 1/4;
+  font-weight: 600;
+  color: #ffffff;
+
+  font-size: 45px;
 }
 
-.value {
-  text-align: center;
-  font-size: 30px;
+.card__apply {
+  margin-top: 10%;
 
-  font-family: "Nunito Sans", sans-serif;
-  margin-bottom: 0px;
+  grid-row: 4/4;
+  align-self: center;
+  color: #ffffff;
+
+  font-weight: 600;
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
-}
+/* RESPONSIVE */
 
-.title {
-  align-items: center;
-  text-align: center;
-
-  
+@media (max-width: 1600px) {
+  .cards {
+    justify-content: center;
+  }
 }
