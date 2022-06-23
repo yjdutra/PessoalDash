@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+
+  font-size: 35px;
+}
+
+.Card {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0px 30px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #ff8b8b 10%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+  font-family: "Poiret One", cursive;
+  font-size: large;
+}
+
+.Table {
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 200px;
+
+  font-size: 60px;
+}
+
+.Icon {
+  display: flex;
+
+  width: 60px;
+  height: 60px;
+
+  font-size: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-weight: 600;
+  color: #ffffff;
+
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.Icon :hover {
+  cursor: pointer;
+  color: #e92fd0;
+}
