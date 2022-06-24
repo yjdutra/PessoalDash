@@ -1,0 +1,49 @@
+.footerDiv {
+  height: 101px;
+  width: 100px;
+}
+
+.pagina {
+  position: absolute;
+  display: grid;
+  height: 98%;
+  width: 98%;
+  border-radius: 5px;
+  grid-template-columns: 20% 80%;
+
+  background-image: url("https://wallpapercave.com/wp/wp2532972.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  margin-top: 10px;
+}
+
+.rightContent {
+  margin-top: 10px;
+  height: 89%;
+  width: 90%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+
+  font-size: 35px;
+}
