@@ -1,14 +1,13 @@
 import styles from "./layout.module.css";
 import CardContas from "../../components/cardContas";
 import InputCard from "../../components/input";
-import WebApps from "../../components/WebApps";
-import Menu from "../../components/menu"
+import Menu from "../../components/menu";
 
 export default function Dash() {
   return (
     <div className={styles.pagina}>
       <div className={styles.left}>
-        <Menu/>
+        <Menu />
       </div>
       <div className={styles.right}>
         <div className={styles.CardsContas}>
@@ -18,10 +17,12 @@ export default function Dash() {
           <CardContas value="175,00" type="internet" />
           <CardContas value="100,00" type="gas" />
         </div>
+        <div className={styles.rightContent}>
+          <InputCard />
+        </div>
       </div>
-      <br />
 
-      {/* <InputCard /> <WebApps /> */}
+      {/*  <WebApps /> */}
     </div>
   );
 }

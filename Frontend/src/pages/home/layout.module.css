@@ -1,0 +1,47 @@
+.CardsContas {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 150px;
+
+  margin-bottom: 20px;
+}
+
+.pagina {
+  position: absolute;
+  display: grid;
+  height: 98%;
+  width: 98%;
+  border-radius: 5px;
+  grid-template-columns: 20% 80%;
+
+  background-image: url("https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  margin-top: 10px;
+}
+
+.rightContent {
+  border-top: 50px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+
+  font-size: 35px;
+}
