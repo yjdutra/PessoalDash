@@ -21,47 +21,27 @@ export default function WebApps() {
         <p>Apps</p>
       </div>
       <table className={styles.Table}>
-        <tr>
-          <td>
-            <div className={styles.Icon}>{github}</div>
-          </td>
-          <td>
-            <div className={styles.Icon}>{whats}</div>
-          </td>
-          <td>
-            <div className={styles.Icon}>{insta}</div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div className={styles.Icon}>{youtube}</div>
-          </td>
-          <td>
-            <div className={styles.Icon}>{tt}</div>
-          </td>
-          <td>
-            <div className={styles.Icon}>{email}</div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div className={styles.Icon}>{gitlab}</div>
-          </td>
-          <td>
-            <div className={styles.Icon}>{drive}</div>
-          </td>
-          <td>
-            <div className={styles.Icon}>{amazon}</div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div className={styles.Icon}>{ponto}</div>
-          </td>
-          <td>
-            <div className={styles.Icon}>{linkedin}</div>
-          </td>
-        </tr>
+        <div className={styles.Icon}>{github}</div>
+
+        <div className={styles.Icon}>{whats}</div>
+
+        <div className={styles.Icon}>{insta}</div>
+
+        <div className={styles.Icon}>{youtube}</div>
+
+        <div className={styles.Icon}>{tt}</div>
+
+        <div className={styles.Icon}>{email}</div>
+
+        <div className={styles.Icon}>{gitlab}</div>
+
+        <div className={styles.Icon}>{drive}</div>
+
+        <div className={styles.Icon}>{amazon}</div>
+
+        <div className={styles.Icon}>{ponto}</div>
+
+        <div className={styles.Icon}>{linkedin}</div>
       </table>
     </div>
   );
