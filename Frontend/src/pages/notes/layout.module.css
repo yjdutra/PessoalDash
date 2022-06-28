@@ -1,4 +1,6 @@
 .CardsContas {
+  width: 100px;
+  height: 100px;
   display: grid;
   grid-template-columns: 250px 250px 250px;
   grid-template-rows: 150px;
@@ -32,16 +34,14 @@
 }
 .right {
   margin-top: 10px;
+  width: 800px;
 }
 
 .rightContent {
-  margin-top: 10px;
-  height: 89%;
-  width: 90%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20%, 20%, 20%, 20%;
+  margin-top: 30px;
 }
 
 .title {

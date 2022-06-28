@@ -30,11 +30,9 @@
 
 .li :hover {
   cursor: pointer;
-font-size: 35px;
 }
 
 .icon {
   font-size: 30px;
   padding: 9px;
 }
-
