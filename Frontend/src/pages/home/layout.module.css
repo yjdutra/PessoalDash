@@ -35,6 +35,8 @@
 }
 
 .rightContent {
+  display:block;
+  max-height: 500px;
   border-top: 50px;
 }
 

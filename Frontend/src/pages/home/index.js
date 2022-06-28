@@ -2,6 +2,7 @@ import styles from "./layout.module.css";
 import CardContas from "../../components/cardContas";
 import InputCard from "../../components/input";
 import Menu from "../../components/menu";
+import BarGraph from "../../components/graficos";
 
 export default function Dash() {
   return (
@@ -18,7 +19,7 @@ export default function Dash() {
           <CardContas value="100,00" type="gas" />
         </div>
         <div className={styles.rightContent}>
-          <InputCard />
+          <BarGraph />
         </div>
       </div>
 
