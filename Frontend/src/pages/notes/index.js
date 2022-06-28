@@ -1,6 +1,7 @@
 import styles from "./layout.module.css";
 
 import Menu from "../../components/menu";
+import InputNotes from "../../components/inputNote";
 
 export default function Dash() {
   return (
@@ -9,7 +10,7 @@ export default function Dash() {
         <Menu />
       </div>
       <div className={styles.right}>
-        <input type="text" />
+        <InputNotes />
         <div className={styles.rightContent}></div>
       </div>
 

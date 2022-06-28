@@ -1,7 +1,6 @@
 import styles from "./layout.module.css";
 import CardContas from "../../components/cardContas";
-import InputCard from "../../components/input";
-import WebApps from "../../components/WebApps";
+
 import Menu from "../../components/menu"
 
 export default function Dash() {
